@@ -5,7 +5,7 @@ import 'rxjs/Rx';
 
 @Injectable()
 export class DbOperationsService {
-	apiURL = "https://phpmysqlangularheroku.herokuapp.com/backend/users/";
+	apiURL = "https://incredibletechsolve.com/MyApps/phpmysqlangular/backend/users/index.php";
   	constructor(private http: Http){}
   	//Save users
 	saveUsers(users: any[]){
