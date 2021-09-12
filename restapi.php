@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit(0);
 }
 // Connect to database
-$conn = mysqli_connect('localhost','root','','angular4-crud');
+$conn = mysqli_connect('us-cdbr-east-04.cleardb.com','b8c62a10097525','bb7f5e26','heroku_3e46dc0f1caa30f');
 include_once('users.php');
 $request_method = $_SERVER["REQUEST_METHOD"];
 $data = json_decode(file_get_contents("php://input"));
