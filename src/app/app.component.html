@@ -10,7 +10,7 @@
           <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <form [formGroup]="userForm" (ngSubmit)="saveUser(formFlag)">
+        <form [formGroup]="userForm" (ngSubmit)="saveUser()">
         <div class="modal-body">
           <input type="hidden" class="input-sm form-control" formControlName="id">
           <div class="form-group">
