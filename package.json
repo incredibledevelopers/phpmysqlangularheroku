@@ -8,9 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-	  "postinstall": "ng build --aot",
-    "heroku-postbuild": "npm run build",
-    "start": "node server.js"	
+    "postinstall": "ng build --aot",
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
