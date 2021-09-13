@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-	   "postinstall": "ng build --aot",
+	  "postinstall": "ng build --aot",
+    "heroku-postbuild": "npm run build",
     "start": "node server.js"	
   },
   "private": true,
@@ -50,7 +51,7 @@
     "typescript": "~2.3.3"
   },
    "engines": {
-    "node": "14.15.4",
+     "node": "12.6.0",
     "npm": "6.9.0"
   }
 }
